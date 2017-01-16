@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>Blackorchild -  Where to buy</title>
+	<meta name="keywords" content="Blackorchild">
+	<meta name="description" content="Blackorchild">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="imagetoolbar" content="no">
+	<meta name="msthemecompatible" content="no">
+	<meta name="copyright" content="Авторские права">
+	<link rel="icon" href="favicon.ico" type="image/x-icon" />
+	
+	<meta name="HandheldFriendly" content="true">
+	<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+	<meta http-equiv="cleartype" content="on"/>
+	<meta name="format-detection" content="telephone=no">
+	<meta name="format-detection" content="address=no">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/mobile-menu/component.css">
+	<link rel="stylesheet" href="css/jquery-ui.min.css">
+	<link rel="stylesheet" href="css/sumoselect.min.css">
+	<link rel="stylesheet" href="css/styles.min.css">
+
+	<style> 
+		.gmnoprint a{
+			display:none!important;
+		}
+		
+		#map div div a div img{
+			display:none!important;
+		}
+		.gm-style-cc{
+			display:none!important;
+		}
+	</style>
+	<script>
+		var script = '<script src="js/infobubble';
+		if (document.location.search.indexOf('compiled') !== -1) {
+			script += '-compiled';
+		}
+		script += '.js"><' + '/script>';
+		document.write(script);
+	</script>
+</head>
+<body>
+	<main class="cf inside-page">
+		<div class="wrapper">
+			<div class="header_bg">
+				<!-- <header>
+					<div class="container cf">
+						<div class="header_l">
+							<a href="#" class="logo">
+								<img src="images/logo.png" alt="Blackorchild">
+							</a>
+						</div>
+						<div class="header_r">
+							<div class="header_r_t cf">
+								<div class="header_lang lang">
+									<div class="lang_e">
+										<div class="lang_tx en">
+											<span class="lang">Eng</span>
+										</div>
+										<div class="lang_pointer"></div>
+									</div>
+									<div class="lang_lst">
+										<a class="lang_lst_i en" href="#">English</a>
+										<a class="lang_lst_i dutch" href="#">Dutch</a>
+										<a class="lang_lst_i french" href="#">French</a>
+										<a class="lang_lst_i german" href="#">German</a>
+										<a class="lang_lst_i italian" href="#">Italian</a>
+									</div>
+								</div>
+								<div class="header_search search">
+									<form id="search-form" action="search.php">
+										<input id="autocomplete" required="" name="q" class="search-field" value="" placeholder="Search" type="search">
+										<input class="search-submit" name="search_bt" value="search" type="submit">
+									</form>
+								</div>
+							</div>
+							<div class="header_b_b cf">
+								<nav class="header-menu page cf">
+									<ul>
+										<li class="dropdown">
+											<a href="#">Products</a>
+											<ul class="sub-menu">
+												<li>
+													<a href="#">Products 1</a>
+												</li>
+												<li>
+													<a href="#">Products 2</a>
+												</li>
+												<li>
+													<a href="#">Products 3</a>
+												</li>
+											</ul>
+										</li>
+										<li>
+											<a href="#">Where to buy</a>
+										</li>
+										<li>
+											<a href="#">Downloads</a>
+										</li>
+										<li>
+											<a href="#">Contact</a>
+										</li>
+										<li>
+											<a href="#">Blog</a>
+										</li>
+									</ul>
+								</nav>
+								<div id="dl-menu" class="dl-menuwrapper">
+									<button class="dl-trigger">Открыть меню</button>
+									<ul class="dl-menu">
+										<li>
+											<a href="#">Products 1</a>
+											<ul class="dl-submenu">
+												<li>
+													<a href="#">Products 1</a>
+												</li>
+												<li>
+													<a href="#">Products 2</a>
+												</li>
+												<li>
+													<a href="#">Products 3</a>
+												</li>
+											</ul>
+										</li>
+										<li>
+											<a href="#">Where to buy</a>
+										</li>
+										<li>
+											<a href="#">Downloads</a>
+										</li>
+										<li>
+											<a href="#">Contact</a>
+										</li>
+										<li>
+											<a href="#">Blog</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</header> -->
+			</div>
+			<section class="page">
+				<div class="page_w container cf">
+					<!-- <div class="page_t">
+						<nav class="breadcrumbs">
+							<ul>
+								<li>
+									<a href="#">Home</a>
+								</li>
+								<li class="active">
+									<a href="#">Products</a>
+								</li>
+							</ul>
+						</nav>
+						<h2>where to buy</h2>
+					</div> -->
+					<div class="page_cnt">
+						<div id="map" class="page-map"></div>
+						<div class="page-search cf">
+							<div class="page-search_l">
+								<div class="page-search_l_cnt">
+									<form class="location-form" action="search.php">
+										<input required="" name="" class="location-form_field" value="" placeholder="Location" type="search">
+										<div class="location-form_btn button">
+											<input id="location-form-submit" class="location-form-submit" name="location-form_bt" value="search" type="submit">
+											<label for="location-form-submit"></label>
+										</div>
+									</form>
+								</div>
+							</div>
+							<div class="page-search_r">
+								<form action="search.php" class="distance-form">
+									<select class="distance-form_sel">
+										<option value="10">10 miles</option>
+										<option value="15">15 miles</option>
+										<option value="20">20 miles</option>
+										<option value="25">25 miles</option>
+										<option value="30">30 miles</option>
+									</select>
+									<button value="go" type="submit" class="distance-form_btn button">go</button>
+								</form>
+							</div>
+						</div>
+						<!-- <div id="page-accordion" class="page-contacts">
+							<ul class="page-contacts_lst">
+								<li class="page-contacts_child">
+									<a href="#">Black Orchid Ltd</a>
+									<div class="page-contacts_child_cnt cf">
+										
+									</div>
+								</li>
+								<li class="page-contacts_child">
+									<a href="#">Bradley Hydro Supplies</a>
+									<div class="page-contacts_child_cnt cf">
+										
+									</div>
+								</li>
+								<li class="page-contacts_child">
+									<a href="#">Bright Green</a>
+									<div class="page-contacts_child_cnt cf">
+										
+									</div>
+								</li>
+								<li class="page-contacts_child">
+									<a href="#">Brit Crops Hydroponics</a>
+									<div class="page-contacts_child_cnt cf">
+										<div class="page-contacts_child_cnt_l">
+											<div class="page-contacts_img">
+												<img src="images/map_logo.png" alt="Blackorchild">
+											</div>
+										</div>
+										<div class="page-contacts_child_cnt_r">
+											<div class="page-contacts_information cf">
+												<div class="page-contacts_information_e">
+													<div class="page-contacts_information_i location">Unit 9 Oj's Industrial Park, 3 Claybank Road, Portsmouth PO3, UK</div>
+													<div class="page-contacts_information_i e-mail"><a href="mailto:info@britcropshydroponics.co.uk">info@britcropshydroponics.co.uk</a></div>
+													<div class="page-contacts_information_i phone">+0 (23) 92 669 111</div>
+												</div>
+												<div class="page-contacts_information_e">
+													<div class="page-contacts_information_i time">9.00 am - 6.00 pm <span>Monday-Friday</span>, <br> 10.00 am - 5.00 pm <span>Saturday</span>,<br> <span>Closed Sundays</span></div>
+													<div class="page-contacts_information_i coffee">into store for coffee to discuss your hydro- ponic requirements.</div>
+													<div class="page-contacts_information_i site"><a href="http://www.britcropshydroponics.co.uk">http://www.britcropshydroponics.co.uk</a></div>
+												</div>
+											</div>
+											<div class="page-contacts_stocked cf">
+												<div class="page-contacts_stocked_l">
+													<div class="page-contacts_stocked_img">
+														<img src="images/stocked_img.png" alt="Blackorchild">
+													</div>
+												</div>
+												<div class="page-contacts_stocked_r">
+													<div class="page-contacts_stocked_t">Black Orchid products stocked:</div>
+													<div class="page-contacts_stocked_lst">
+														<ul>
+															<li>Hydro-boxTM hydroponic tents</li>
+															<li>Mini-whisperTM clip-on fans</li>
+															<li>Air-moverTM floor mounted air circulators</li>
+															<li>Even-floTM carbon filters</li>
+														</ul>
+													</div>
+												</div>
+											</div>
+											<form class="directions-form" action="search.php">
+												<input required="" name="" class="directions-form_field" value="" placeholder="Get directions from" type="search">
+												<input class="directions-form-submit button" name="directions-form_bt" value="go" type="submit">
+											</form>
+										</div>
+									</div>
+								</li>
+								<li class="page-contacts_child">
+									<a href="#">Bradley Hydro Supplies</a>
+									<div class="page-contacts_child_cnt cf">
+										
+									</div>
+								</li>
+								<li class="page-contacts_child">
+									<a href="#">Bright Green</a>
+									<div class="page-contacts_child_cnt cf">
+										
+									</div>
+								</li>
+							</ul>
+						</div>
+						<ul class="page-pagination">
+							<li class="prev disabled">
+								<a href="#">previous</a>
+							</li>
+							<li>
+								<a href="#">1</a>
+							</li>
+							<li>
+								<a href="#">2</a>
+							</li>
+							<li>
+								<a href="#">3</a>
+							</li>
+							<li class="next">
+								<a href="#">next</a>
+							</li>
+						</ul> -->
+					</div>
+				</div>
+			</section>
+			<!-- <div class="end"></div> -->
+		</div>
+<!-- 		<footer class="footer">
+			<div class="container cf">
+				<div class="footer_l">
+					<div class="footer_menu cf">
+						<ul>
+							<li><a href="#">home</a></li>
+							<li><a href="#">privacy policy</a></li>
+							<li><a href="#">blog</a></li>
+							<li><a href="#">contact</a></li>
+							<li><a href="#">about us</a></li>
+							<li><a href="#">register</a></li>
+						</ul>
+					</div>
+					<div class="social-b cf">
+						<ul>
+							<li>
+								<a href="#" class="social-b-btn social-btn-fb"></a>
+							</li>
+							<li>
+								<a href="#" class="social-b-btn social-btn-tw"></a>
+							</li>
+							<li>
+								<a href="#" class="social-b-btn social-btn-google"></a>
+							</li>
+							<li>
+								<a href="#" class="social-b-btn social-btn-youtube"></a>
+							</li>
+							<li>
+								<a href="#" class="social-b-btn social-btn-pinterest"></a>
+							</li>
+							<li>
+								<a href="#" class="social-b-btn social-btn-in"></a>
+							</li>
+							<li>
+								<a href="#" class="social-b-btn social-btn-instagram"></a>
+							</li>
+							<li>
+								<a href="#" class="social-b-btn social-btn-rss"></a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="footer_r">
+					<div class="footer_logo">
+						<img src="images/logo_f_1.png" alt="Blackorchild">
+					</div>
+					<div class="footer_logo">
+						<img src="images/logo_f_2.png" alt="Blackorchild">
+					</div>
+				</div>
+			</div>
+		</footer> -->
+	</main>
+
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAPi_aonQqHC2_84W8jqQIMp8QYvQoeN_I&language=en"></script>
+	<script src="js/jquery-2.1.1.min.js" type="text/javascript"></script>
+	<script src="js/owl.carousel.min.js" type="text/javascript"></script>
+	<script src="js/jquery.sumoselect.min.js" type="text/javascript"></script>
+	<script src="js/modernizr.custom.js" type="text/javascript"></script>
+	<script src="js/jquery.dlmenu.js" type="text/javascript"></script>
+	<script src="js/jquery-ui.min.js" type="text/javascript"></script>
+	
+	<script src="js/main.js" type="text/javascript"></script>
+
+</body>
+</html>
